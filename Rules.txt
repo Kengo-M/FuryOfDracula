@@ -1,0 +1,33 @@
+Hunters start with a score of 366
+
+When Hunters and Dracula are in the same city, they have an Encounter,and Dracula loses health.
+
+Dracula knows where the hunters are but the Hunters do not know where Dracula is
+
+If a Hunter enters a city where Dracula has been in any of his last 6 turns then the Hunter deduce precisely when he was there.
+
+Dracula's last 6 turns is called his Trail...
+
+Dracula also leaves traps (sometimes called minions) and immature Vampires behind him in every city he visits.
+
+Every 13 rounds Dracula leaves behind a new immature Vampire, After 6 rounds the Vampire matures, and the score decreases by 13. Although, if a hunter comes to the same city as the immature vampire, he kills it and prevents the score loss.
+
+Note that Dracula places a Trap/Vampire as soon as he enters a city (i.e Automatically every time he enters a city).
+ 
+Hunters start with 9 life points (which can't be exceeded). When a hunter loses his all life points, he is magically transported to the Hospital St Joseph and St Mary (this ends their turn) and the score decreases by 6 points. On the hunter's next turn he regains full health (9 points)
+ 
+ On the other hand if Dracula loses all his blood then he is vanquished. i.e(GG)
+
+Hunters can move by road, rail, or sea. 
+
+Dracula can only move by road or sea and every turn he spends at sea loses him 2 blood points.
+ 
+Moving by road means moving from one city to another city that is directly connected to by a single road segment.
+ 
+Moving by rail is less reliable, sometimes Hunters can move up to 3, 2, 1, or 0 (Random). Need to divide a randod seed by 4 and get it's remainder.
+ 
+Moving by sea is neat... you can rapidly travel a long way. Unfortunately Hunters can never encounter Dracula while they are at sea, even if the hunter and dracula are at the same sea.
+
+
+ 
+  
